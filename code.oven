@@ -1,0 +1,21 @@
+many = input("What calculator function do you want ( *  /  +  - ) \n")
+if "*" <| many {
+  one = num(input("first number: "))
+  two = num(input("second number: "))
+  print(one, " * ", two, " = ", one * two)
+}
+else if "/" <| many {
+  one = num(input("first number: "))
+  two = num(input("second number: "))
+  print(one, " / ", two, " = ", one / two)
+}
+else if "+" <| many {
+  one = num(input("first number: "))
+  two = num(input("second number: "))
+  print(one, " + ", two, " = ", one + two)
+}
+else if "-" <| many {
+  one = num(input("first number: "))
+  two = num(input("second number: "))
+  print(one, " - ", two, " = ", one - two)
+}
